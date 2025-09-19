@@ -1,14 +1,19 @@
 {
   "name": "fitness-tracker",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "open": "^8.4.0"
+  },
   "devDependencies": {
     "electron": "^38.1.2"
   }
